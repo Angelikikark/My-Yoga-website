@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passion for Yoga🧘</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #9932cc;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 40px;
+        margin-bottom: 200px; /* Adjust the margin as needed */
+        margin-top: 0.5px;
+      }
+      h2 {
+        text-align: center;
+        border: 2px solid #9932cc;
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 100px;
+        font-family: "Brush Script MT", cursive;
+        border-width: 1px;
+        border-radius: 100%;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+        border-radius: 5%;
+      }
+      p {
+        line-height: 1.5;
+        font-size: 17px;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+
+        padding: 50px; /* Optional: Add padding to the paragraph */
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background-color: #9932cc;
+        color: white;
+        font-size: 20px;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+        font-family: Georgia, "Times New Roman", serif;
+      }
+      button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+
+      .container {
+        background-color: #e2c9e0;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        color: #fff; /* Text color for content inside the container */
+        font-family: Arial, sans-serif;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .learn-more {
+        display: block;
+        margin-top: 15px;
+
+        text-decoration: none;
+        color: #9932cc;
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+      }
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+
+      .creator {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 30px;
+        font-family: Arial, sans-serif;
+      }
+      .heart-border {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+        height: 80px;
+        border: 2px solid rgba(176, 128, 211, 0.5);
+        margin-top: -5px;
+        box-shadow: 0px 0px 0px 3px #9932cc; /* Moves the border slightly outward */
+        outline: 3px solid #b688ce; /* Moves the border slightly outward */
+        transform: translate(
+          5px,
+          -5px
+        ); /* Moves the border slightly to the top right */
+        transform: translate(
+          -100px,
+          20px
+        ); /* Moves the border slightly to the top right */
+      }
+      body {
+        background: linear-gradient(
+          to top,
+          #dad4ec 0%,
+          #dad4ec 1%,
+          #f3e7e9 100%
+        );
+      }
+
+      div {
+        display: block;
+        unicode-bidi: isolate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Passion for Yoga 🧘‍♀️</h1>
+      <h2 class="heart-border">Life Happens Yoga Helps</h2>
+
+      <p>
+        Yoga is more than just a physical exercise; it's a holistic practice
+        that brings together the body, mind, and spirit. Through a combination
+        of postures, breathing techniques, and meditation, yoga offers a
+        multitude of benefits that extend beyond the mat. Physically, yoga
+        increases flexibility, builds strength, and improves balance.These
+        physical improvements not only contribute to overall health but also
+        help prevent injuries in everyday activities. Emotionally, yoga provides
+        a space for self-reflection and introspection. It encourages
+        self-acceptance and compassion, fostering a deeper understanding of
+        oneself and others.
+      </p>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/651/original/yoga.jpg?1713478499"
+        alt="Yoga Pose"
+        width="400"
+      />
+      <p>
+        Through regular practice, individuals often experience reduced stress
+        and anxiety, increased resilience, and a greater sense of inner peace.
+        In essence, yoga is a transformative practice that nourishes the body,
+        mind, and soul. It empowers individuals to live more fully, with greater
+        vitality, balance, and joy.
+      </p>
+
+      <hr />
+      <a
+        href="https://en.wikipedia.org/wiki/Yoga"
+        target="_blank"
+        class="learn-more"
+      >
+        📓 Explore more on Wikipedia</a
+      >
+
+      <button class="yogaButton">&#128073; Start Yoga Today</button>
+
+      <p class="creator">
+        This page was build by Angeliki karkampasi &#128525;
+      </p>
+    </div>
+    <script>
+      function doyoga() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is you email?");
+        let emoji = prompt("What is your favourite emoji?");
+
+        alert(
+          "Thank you " +
+            name +
+            "! Amazing you've done your first step towards a healthier and happier you, we'll be in contact soon" +
+            emoji
+        );
+      }
+
+      let yogaButton = document.querySelector(".yogaButton");
+      yogaButton.addEventListener("click", doyoga);
+    </script>
+  </body>
+</html>
