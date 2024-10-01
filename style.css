@@ -1,0 +1,110 @@
+h1 {
+  text-align: center;
+  color: #9932cc;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 40px;
+  margin-bottom: 200px; /* Adjust the margin as needed */
+  margin-top: 0.5px;
+}
+h2 {
+  text-align: center;
+  border: 2px solid #9932cc;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 100px;
+  font-family: "Brush Script MT", cursive;
+  border-width: 1px;
+  border-radius: 100%;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  border-radius: 5%;
+}
+p {
+  line-height: 1.5;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+
+  padding: 50px; /* Optional: Add padding to the paragraph */
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #9932cc;
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  font-family: Georgia, "Times New Roman", serif;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #e2c9e0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #fff; /* Text color for content inside the container */
+  font-family: Arial, sans-serif;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.learn-more {
+  display: block;
+  margin-top: 15px;
+
+  text-decoration: none;
+  color: #9932cc;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.creator {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+}
+.heart-border {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 80px;
+  border: 2px solid rgba(176, 128, 211, 0.5);
+  margin-top: -5px;
+  box-shadow: 0px 0px 0px 3px #9932cc; /* Moves the border slightly outward */
+  outline: 3px solid #b688ce; /* Moves the border slightly outward */
+  transform: translate(
+    5px,
+    -5px
+  ); /* Moves the border slightly to the top right */
+  transform: translate(
+    -100px,
+    20px
+  ); /* Moves the border slightly to the top right */
+}
+body {
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
